@@ -8,11 +8,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Cashier\Billable;
 use App\Models\Purchase;
+use Laravel\Nova\Auth\Impersonatable;
 
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable, Billable;
+    use HasFactory, Notifiable, Impersonatable, Billable;
 
     /**
      * The attributes that are mass assignable.
