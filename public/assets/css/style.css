@@ -1,0 +1,568 @@
+/* Header CSS Start Here */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px;
+  z-index: 2;
+  transition: all 300ms ease-in-out;
+}
+
+.header.active {
+  border-bottom: 5px solid #30c0d2;
+  background-color: #133639;
+}
+
+.header .grid-container {
+  max-width: 1300px;
+  width: 100%;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.header a {
+  display: block;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header li {
+  position: relative;
+}
+
+.header li:hover .sub-menu {
+  display: block;
+}
+
+.header .open-menu.sub-menu {
+  display: block;
+}
+
+.hamburger {
+  width: 25px;
+  height: 21px;
+  position: relative;
+  z-index: 1;
+}
+
+.hamburger.active .lines:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .lines:nth-child(2) {
+  display: none;
+}
+
+.hamburger.active .lines:last-child {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.hamburger .lines {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger .lines:first-child {
+  top: 0;
+}
+
+.hamburger .lines:nth-child(2) {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hamburger .lines:last-child {
+  bottom: 0;
+}
+
+.navigation {
+  display: none;
+}
+
+.navigation.active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #133639;
+  padding: 60px 0px 25px 0px;
+}
+
+.navigation .btn {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navigation.active .menu {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header .menu a {
+  padding: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+  text-align: center;
+}
+
+.header .menu a:hover {
+  color: #30c0d2;
+}
+
+.header .menu li:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.header .menu .sub-menu {
+  display: none;
+}
+
+.header .menu .sub-menu li {
+  padding: 0;
+}
+
+.header .menu .sub-menu a {
+  text-transform: capitalize;
+  padding: 13px 20px;
+  transition: all 300ms;
+}
+
+.header .menu .sub-menu a:hover {
+  background-color: #3f444b;
+  color: #ffffff;
+}
+
+.navigation-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation-bottom .logo-wrap {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 300ms linear;
+}
+
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(77%) sepia(9%) saturate(3810%) hue-rotate(145deg) brightness(89%) contrast(85%);
+}
+
+.icon.icon-twitter {
+  background-position: -30px 0;
+}
+
+.icon.icon-youtube {
+  background-position: -58px 0;
+}
+
+.icon.icon-instagram {
+  background-position: -87px 0;
+}
+
+/* Header CSS Start Here */
+
+/* Banner Css Starts Here */
+.banner-slide {
+  height: 500px;
+}
+
+.banner .sub-head {
+  font-family: "Roboto Slab", system-ui;
+  display: block;
+  margin-left: 60px;
+  font-weight: 400;
+}
+
+.banner .slide-1 {
+  background-color: #133639;
+}
+
+.banner .slide-2 {
+  background-color: #398491;
+}
+
+.banner .slide-3 {
+  background-color: #30c0d2;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+}
+
+.slick-dots li {
+  text-indent: -9999px;
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active {
+  background-color: #979797;
+}
+
+/* Banner Css Ends Here */
+
+/* Ana Info Css Start Here */
+.ana-info {
+  background-color: #133639;
+  padding: 50px 0px;
+}
+
+.ana-info .container {
+  padding: 0px 45px;
+}
+
+.ana-info h2 {
+  margin-bottom: 10px;
+}
+
+.ana-info h3 {
+  margin-bottom: 20px;
+}
+
+.ana-info p {
+  margin-bottom: 20px;
+}
+
+.ana-info .para-wrap .btn {
+  display: none;
+}
+
+.ana-info img {
+  border-radius: 35px;
+  margin-bottom: 30px;
+}
+
+/* Ana Info Css Ends Here */
+
+/* Events CSS Starts Here */
+.event {
+  padding: 25px 25px 40px;
+  background-color: #f2f2f2;
+}
+
+.event .heads-wrap .btn {
+  display: none;
+  border: 3px solid #f2f2f2;
+  border-radius: 6px;
+}
+
+.event .heads-wrap .btn:hover {
+  border-color: #398491;
+}
+
+.event h2 {
+  margin-bottom: 10px;
+}
+
+.event h3 {
+  margin-bottom: 20px;
+}
+
+.event .card {
+  background-color: #f2f2f2;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.event .card-body {
+  height: 225px;
+  margin-bottom: 16px;
+}
+
+.event .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.event .card-footer a {
+  display: block;
+  color: #398491;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.event .card-footer .about-card {
+  font-size: 24px;
+  color: #133639;
+  font-family: "Roboto Slab", system-ui;
+  font-weight: 700;
+}
+
+/* Events Css Ends Here */
+
+/* Online Traininig CSS Starts Here */
+.online-trainings {
+  padding: 25px 25px 40px;
+  background-color: #F2F2F2;
+}
+
+.online-trainings h3 {
+  color: #133639;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.list-icon {
+  background: url("../images/listing.png") no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin: 10px;
+  flex: none;
+  transition: all 300ms;
+}
+
+.list-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.online-trainings ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  border-color: var(--e-global-color-primary);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 15px 0px 15px 0px;
+}
+
+.online-trainings ul li:not(:last-child) {
+  border-bottom: none;
+}
+
+.online-trainings ul li a {
+  color: rgb(19, 54, 57);
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/* Online Traininig CSS Ends Here */
+
+/* Rise Up Section CSS Starts Here */
+.rise-up {
+  background: url("../images/bg-img.png") top center;
+  background-size: cover;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.rise-up h2 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.rise-up h2::before {
+  display: none;
+}
+
+.rise-up h3 {
+  margin-bottom: 20px;
+}
+
+.rise-up p {
+  margin-bottom: 40px;
+  line-height: 1.45;
+}
+
+.rise-up img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+
+.rise-up .images-wrap {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  min-height: 208px;
+}
+
+.rise-up .images-wrap a {
+  display: block;
+  position: relative;
+}
+
+.rise-up .images-wrap a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rise-up .content-wrap {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto Slab", system-ui;
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  z-index: 1;
+}
+
+.rise-up .arrow-right {
+  background: url("../images/arrow-right.png") top center;
+  background-size: contain;
+  display: block;
+  width: 34px;
+  height: 34px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7479%) hue-rotate(96deg) brightness(104%) contrast(99%);
+  margin-bottom: 12px;
+  transition: all 300ms;
+}
+
+.rise-up .arrow-right:hover {
+  filter: brightness(0) saturate(100%) invert(88%) sepia(21%) saturate(5827%) hue-rotate(146deg) brightness(87%) contrast(87%);
+  transform: scale(1.2);
+}
+
+/* Rise Up Section CSS Ends Here */
+
+/* Newsletter Css Start Here */
+.newsletter {
+  background-color: #30c0d2;
+  padding: 35px 25px;
+}
+
+.newsletter p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Newsletter Css Here */
+
+/* Footer Css Starts Here */
+.footer {
+  background: #133639;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 47px 0px 28px 0px;
+}
+
+.footer li a {
+  transition: all 300ms;
+}
+
+.footer li a:hover {
+  color: #30c0d2;
+}
+
+.footer .container {
+  max-width: 1300px;
+}
+
+.footer .grid-container {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-logo {
+  width: 170px;
+  margin: 0 auto 40px;
+}
+
+.footer-logo img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.footer-menu {
+  align-items: center;
+}
+
+.footer-menu a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.footer .footer-icons {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-copyright-field {
+  padding: 12px 0 0;
+}
+
+.copy-right-field p {
+  font-size: 14px;
+}
+
+/* Footer Css Ends Here */
+
+.secondary.wrapper .content{
+  margin-top:25px;;
+}
+
+.secondary.wrapper header{
+  background:#133639;
+}
+
+.secondary.wrapper p{
+  color:#333;
+  font-weight:200;
+  line-height:1.95;
+  font-size:28px;
+}
+
+.secondary.wrapper h4{
+  color:#133639;
+  font-weight: 900;
+  font-size:38px;
+  padding:10px 0;
+
+}

@@ -1,0 +1,393 @@
+@media all and (min-width: 480px) {
+    .header .logo {
+        width: 120px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .header .logo {
+        width: 150px;
+    }
+
+    .event .card {
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-block {
+        justify-content: space-between;
+    }
+
+    .footer-menu {
+        align-items: start;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -1.1px;
+        margin: 0px 0px 18px 10px;
+    }
+
+    h2 {
+        letter-spacing: -1.7px;
+        word-spacing: 3.4px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .banner .sub-head {
+        letter-spacing: -0.1px;
+    }
+
+    .banner-slide {
+        height: 700px;
+    }
+
+    .ana-info {
+        padding: 86px 0px 63px;
+    }
+
+    .ana-info .container {
+        padding: 0px 30px;
+    }
+
+    .ana-info h2 {
+        margin-bottom: 0;
+    }
+
+    .ana-info h3 {
+        margin-bottom: 74px;
+    }
+
+    .ana-info .para-wrap .btn {
+        display: block;
+    }
+
+    .ana-info .btn {
+        display: none;
+    }
+
+    .event {
+        padding: 85px 25px 86px;
+    }
+
+    .event .btn {
+        display: none;
+    }
+
+    .event .heads-wrap .btn {
+        display: block;
+        margin: 23px 0px 0px 70px;
+    }
+
+    .event h2 {
+        margin-bottom: 0;
+    }
+
+    .event h3 {
+        margin-bottom: 55px;
+    }
+
+    .event .card-body {
+        margin-bottom: 18px;
+        padding: 0px 10px;
+    }
+
+    .event .card-footer {
+        padding: 0px 10px;
+    }
+
+    .event .card-footer a {
+        margin-bottom: 9px;
+    }
+
+    .rise-up {
+        padding: 82px 20px 53px;
+    }
+
+    .rise-up h2 {
+        letter-spacing: -0.6px;
+        word-spacing: 0px;
+        margin-bottom: 0;
+    }
+
+    .rise-up h3 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .rise-up p {
+        margin-bottom: 56px;
+    }
+
+    .rise-up .images-wrap {
+        margin: 0;
+    }
+
+    .rise-up .content-head {
+        bottom: 40px;
+    }
+
+    .online-trainings {
+        padding: 86px 25px 84px;
+    }
+
+    .online-trainings .container {
+        padding: 0px 30px;
+    }
+
+    .online-trainings h3{
+        color:#133639;
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 34px;
+    }
+
+    .online-trainings ul li {
+        padding: 15px 30px 14px 0px;
+    }
+
+    .online-trainings ul li a{
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10px;
+    }
+
+    .list-icon {
+        width: 31px;
+        height: 31px;
+        background-size: cover;
+    }
+
+    .newsletter {
+        padding: 35px 25px 44px;
+    }
+
+    .newsletter .container {
+        padding: 0px 30px;
+    }
+
+    .newsletter p {
+        padding: 12px 12px 0px 0px;
+        letter-spacing: -0.1px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    h1 {
+        margin-left: 73px;
+    }
+
+    h2 {
+        padding-left: 89px;
+    }
+
+    h2::before {
+        width: 70px;
+    }
+
+    .header {
+        padding: 20px 0px;
+    }
+
+    .header .menu .sub-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .header .menu .sub-menu a {
+        color: #000000;
+    }
+
+    .header .logo {
+        width: 175px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+    }
+
+    .navigation-bottom {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .navigation-bottom .logo-wrap {
+        margin: 0px 0px 8px 0px;
+        gap: 15px;
+    }
+
+    .icon {
+        background-size: 89px 15px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .icon.icon-twitter {
+        background-position: -20px 0;
+    }
+
+    .icon.icon-youtube {
+        background-position: -38px 0;
+    }
+
+    .icon.icon-instagram {
+        background-position: -57px 0;
+    }
+
+    .navigation .btn {
+        margin: 0px 0px 8px 0px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .header .menu li {
+        padding: 9px 14px 17px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header .menu li:not(:last-child) {
+        margin: 0;
+    }
+
+    .header .menu .icon-arrow {
+        width: 10px;
+        height: 10px;
+        background-position: -41px 0px;
+        background-size: 50px 10px;
+    }
+
+    .header .menu a {
+        font-size: 14px;
+        letter-spacing: -0.2px;
+    }
+
+    .banner .sub-head {
+        margin-left: 82px;
+    }
+
+    .ana-info img {
+        width: 85%;
+        padding-left: 10px;
+    }
+
+    .ana-info p {
+        word-spacing: 0.1px;
+        padding-right: 30px;
+        margin-bottom: 26px;
+    }
+
+    .ana-info .ana-content {
+        justify-content: start !important;
+    }
+
+    .event .container {
+        padding: 0px 29px;
+    }
+
+    .event .card img {
+        width: 95%;
+    }
+
+    .rise-up .images-block {
+        padding: 0px 30px;
+    }
+
+    .rise-up .images-wrap a {
+        height: 83%;
+    }
+
+    .rise-up img {
+        border-radius: 16px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .rise-up .images-wrap.iceland {
+        padding-right: 22px;
+    }
+
+    .rise-up .images-wrap.respite {
+        padding-left: 22px;
+    }
+
+    .rise-up .images-wrap.respite a::after {
+        left: auto;
+    }
+
+    .rise-up .content-wrap {
+        bottom: 28px;
+        left: 24px;
+        font-size: 28px;
+    }
+
+    .footer-logo {
+        width: 270px;
+        margin: 0;
+    }
+
+    .footer-logo-wrap {
+        padding: 33px 0 32px 13px;
+    }
+
+    .footer-menu {
+        padding-top: 8px;
+    }
+
+    .footer-menu a {
+        padding: 0;
+    }
+
+    .footer-menu li {
+        padding-left: 32px;
+    }
+
+    .footer-menu li:not(:last-child) {
+        margin-bottom: 28px;
+    }
+
+    .footer .footer-icons {
+        padding: 7px 19px 0px 0px;
+        gap: 21px;
+        margin-bottom: 28px;
+        justify-content: start;
+    }
+
+    .copy-right-field p {
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .footer .footer-icons a {
+        padding: 0;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .header .grid-container {
+        padding: 0px 27px 0px 10px;
+    }
+    
+    .navigation-bottom {
+        gap: 39px;
+    }
+}
