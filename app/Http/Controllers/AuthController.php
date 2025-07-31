@@ -47,7 +47,7 @@ class AuthController extends Controller
     }
 
     function login(Request $request) {
-        $user = User::where('login_token', $request->token)->first();
+        $user = User::where('login_token', hash('sha256', $request->token))->first();
 
         if ($user && $user->login_token_expires_at && $user->login_token_expires_at->isFuture()) {
             Auth::loginUsingId($user->id);
