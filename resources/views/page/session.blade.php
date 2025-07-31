@@ -18,7 +18,7 @@
                   <li><a href="/training/">Training</a></li>  
                   <li><a href="/training/{{$course->type}}">{{$course->type}}</a></li>
                   <li><a href="/training/{{$course->type}}/{{$course->slug}}">{{$course->title}}</a></li>
-                  @if(auth()->check() && auth()->user()->id == 3136)
+                  @if(auth()->check() && auth()->user()->id == 1)
                     <li><a href="/nova/resources/assets/{{$session->id}}/edit" target="_blank">Edit</a></li>
                   @endif
 

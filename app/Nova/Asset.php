@@ -75,7 +75,7 @@ class Asset extends Resource
             Text::make('Title')->sortable()->rules('required'),
             Slug::make('Slug')->from('Title')->separator('-')->hideFromIndex(),
             Image::make('Featured Image', 'featuredImage')->disk('public')->path('uploads')->prunable(),            
-            Trix::make('Description')->rules('required'),
+            Trix::make('Description')->hideFromIndex(),
             BelongsTo::make('Course', 'course', \App\Nova\Course::class)->searchable(),
             URL::make('Url')->rules('required')->hideFromIndex(),
             Number::make('Order')->rules('required')->hideFromIndex(),
